@@ -5,13 +5,10 @@
 - 6 -> [1, 2, 6, 24, 120, 720]'''
 
 
-# Второй вариант решения задачи № 2
+# Третий вариант решения задачи № 2
+
+import math
 
 n = int(input("Enter the number "))
-
-f = 1
-
-for i in range(2, n+1):
-    f *=i
-    
-print("The factorial the input number is", f)
+f = math.factorial(n)
+print("The factorial the",n, "is", f)
