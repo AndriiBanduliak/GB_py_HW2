@@ -8,6 +8,8 @@ Position two: 3
 Number of elements: 5
 -> [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5]
 -> 15'''
+
+
 num1 = int(input("Enter 1st number "))
 num2 = int(input("Enter 2nd number "))
 num1 *= -1
