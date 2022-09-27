@@ -11,4 +11,4 @@ import math
 
 n = int(input("Enter the number "))
 f = math.factorial(n)
-print("The factorial the",n, "is", f)
+print("The factorial of the",n, "is", f)
