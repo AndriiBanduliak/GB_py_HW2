@@ -14,4 +14,4 @@ f = 1
 for i in range(2, n+1):
     f *=i
     
-print("The factorial the input number is", f)
+print("The factorial of the input's number is", f)
