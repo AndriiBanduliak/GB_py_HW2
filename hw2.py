@@ -5,13 +5,13 @@
 - 6 -> [1, 2, 6, 24, 120, 720]'''
 
 
-# Первый вариант решения задачи № 2
+# Второй вариант решения задачи № 2
 
 n = int(input("Enter the number "))
 
 f = 1
 
-while n > 1:
-    f *=n
-    n -= 1
+for i in range(2, n+1):
+    f *=i
+    
 print("The factorial the input number is", f)
