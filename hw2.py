@@ -8,19 +8,22 @@ Position two: 3
 Number of elements: 5
 -> [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5]
 -> 15'''
-
-
 num1 = int(input("Enter 1st number "))
 num2 = int(input("Enter 2nd number "))
 num1 *= -1
 
 a = list(range(num1,num2+1))
+b = len(a)
+print(b)
+
 pos1 = int(input('Enter 1st position '))
 pos2 = int(input("Enter 2nd position "))
 
-pos1 -=1
-pos2 -=1
-e = a[pos1] * a[pos2]
-
-print(a)
-print(e)
+if b <pos1 and b>pos2:
+    pos1 -=1
+    pos2 -=1
+    e = a[pos1] * a[pos2]
+    print(a)
+    print(e)
+else:
+    print("wrong position")
