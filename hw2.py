@@ -14,4 +14,4 @@ f = 1
 while n > 1:
     f *=n
     n -= 1
-print("The factorial the input number is", f)
+print("The factorial of the input's number is", f)
