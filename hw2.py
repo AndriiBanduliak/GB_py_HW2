@@ -1,13 +1,13 @@
-"""3. Задайте список из n чисел, заполненный 
-по формуле (1 + 1/n) ** n и выведите на экран их сумму.
-Для n = 6: [2, 2, 2, 2, 2, 3] -> 13"""
+'''5. ** Реализуйте алгоритм перемешивания списка. Без функции shuffle из модуля random.'''
 
+from random import randint as r
 
-a_int = int(input("> "))
+my_int = int(input("Enter the number of elements in the array "))
 
-int_list = []
+my_list = []
 
-for i in range(1, a_int + 1):
-    int_list.append( int(round( ( (1 + 1/i) ** i), 0)))
- 
-print(f"Для n = {a_int}: {int_list} -> {sum(int_list)}")
+for i in range(0, my_int):
+    my_list.insert(r(0,my_int), i)
+
+print(my_list)
+print(sorted(my_list))
